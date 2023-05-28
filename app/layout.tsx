@@ -7,7 +7,7 @@ import { getBuildConfig } from "./config/build";
 const buildConfig = getBuildConfig();
 
 export const metadata = {
-  title: "ChatGPT",
+  title: "ApiKey.PLUS ChatGPT",
   description: "Your personal Ai Chat Bot.",
   viewport: {
     width: "device-width",
@@ -19,7 +19,7 @@ export const metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "ChatGPT",
+    title: "ApiKey.PLUS ChatGPT",
     statusBarStyle: "default",
   },
 };
