@@ -121,7 +121,8 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>ApiKey.PLUS</div>
         <div className={styles["sidebar-sub-title"]}>
-          请在聊天窗口输入@apikey了解更多
+          已支持GPT4,请点击左下角图标设置API
+          Key后在使用。在聊天窗口输入@apikey了解更多。
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -173,11 +174,16 @@ export function SideBar(props: { className?: string }) {
               <IconButton icon={<SettingsIcon />} shadow />
             </Link>
           </div>
-          {/* <div className={styles["sidebar-action"]}>
+          <div className={styles["sidebar-action"]}>
+            <a href="https://p.apikey.plus" target="_blank">
+              <IconButton icon={<PluginIcon />} shadow />
+            </a>
+          </div>
+          <div className={styles["sidebar-action"]}>
             <a href={REPO_URL} target="_blank">
               <IconButton icon={<GithubIcon />} shadow />
             </a>
-          </div> */}
+          </div>
         </div>
         <div>
           <IconButton
