@@ -122,7 +122,10 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-title"]}>ApiKey.PLUS</div>
         <div className={styles["sidebar-sub-title"]}>
           已支持GPT4,请点击左下角图标设置API
-          Key后在使用。在聊天窗口输入@apikey了解更多。
+          Key后再使用。在聊天窗口输入@apikey了解更多。如需在其他客户端或程序中使用生成的apikey，请查看{" "}
+          <a href="https://p.apikey.plus" target="_blank">
+            https://p.apikey.plus{" "}
+          </a>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
