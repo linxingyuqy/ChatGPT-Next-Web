@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码，或者填入你自己的 OpenAI API Key。",
+      "如果你是第一次访问，请前往[设置](/#/settings)页填入你自己的API Key，如果没有Key,请到这里购买:https://shop.apikey.plus/?code=ZnJvbT0xMDAwJmE9MiZiPTM",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,

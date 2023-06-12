@@ -123,8 +123,16 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-sub-title"]}>
           已支持GPT4,请点击左下角图标设置API
           Key后再使用。在聊天窗口输入@apikey了解更多。如需在其他客户端或程序中使用生成的apikey，请查看{" "}
-          <a href="https://p.apikey.plus" target="_blank">
-            https://p.apikey.plus{" "}
+          <a href="https://apikey.plus" target="_blank">
+            https://apikey.plus{" "}
+          </a>{" "}
+          <br />
+          购买apikey地址：
+          <a
+            href="https://shop.apikey.plus/?code=ZnJvbT0xMDAwJmE9MiZiPTM"
+            target="_blank"
+          >
+            https://shop.apikey.plus{" "}
           </a>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
@@ -178,7 +186,7 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href="https://p.apikey.plus" target="_blank">
+            <a href="https://apikey.plus" target="_blank">
               <IconButton icon={<PluginIcon />} shadow />
             </a>
           </div>
